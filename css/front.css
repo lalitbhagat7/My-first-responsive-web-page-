@@ -1,0 +1,217 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #DDDEFF;
+
+}
+
+.main{
+	width:100%;
+	height:100%;
+    display: flex;
+	justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.box{
+	width:40%;
+	height:500px;
+	background-color:rgba(0,0,0,0.6);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 15px 15px 8px grey;
+}
+
+.upperBox{
+	width:100%;
+	height: 50px;
+	background-color: red;
+   display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.upperBox > .utilityButton{
+	width:50%;
+	height:50px;
+	/*background-color: aliceblue;*/
+	border:none;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+}
+#login{
+	background-color: #1e52a4;
+	color:white;
+
+}
+#login:hover{
+	background-color:#444AB2;
+	cursor:pointer;
+}
+#signup{
+	background-color:#34a782;
+	color:white;
+
+}
+#signup:hover{
+	background-color: #1b926c;
+	cursor:pointer;
+}
+
+
+
+.lowerBox{
+	width:100%;
+	height:450px;
+	background-color:rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+.login-div{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+	color:white;
+}
+#div-email{
+   width:100%;
+}
+#lemail{
+	width:90%;
+	height:40px;
+	background-color: aliceblue;
+	border-radius: 4px;
+	border:2px solid #444AB2;
+	color:black;
+}
+
+#div-password{
+   width:100%;
+   /*margin-bottom: 150px;*/
+}
+#lpassword{
+	width:90%;
+	height:40px;
+	background-color: aliceblue;
+	border-radius: 4px;
+	border:2px solid #444AB2;
+	color:black;
+}
+
+#div-login-btn{
+	width:100%;
+	flex-grow: 0.5;
+	display: flex;
+	justify-content: flex-end;
+}
+#btn-login{
+	width:200px;
+	height:40px;
+	background-color: #444AB2;
+	margin-right: 27px;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+	border: none;
+}
+#btn-login:hover{
+	cursor: pointer;
+	background-color: #1e52a4;
+}
+
+
+
+.signup-div{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+	color:white;
+}
+/*#div-email{
+   width:100%;
+}
+#lemail{
+	width:90%;
+	height:40px;
+	background-color: aliceblue;
+	border-radius: 4px;
+	border:2px solid #444AB2;
+	color:black;
+}*/
+#div-name{
+   width:100%;
+}
+#lname{
+	width:90%;
+	height:40px;
+	background-color: aliceblue;
+	border-radius: 4px;
+	border:2px solid #444AB2;
+	color:black;
+}
+#div-contact{
+   width:100%;
+}
+#lcontact{
+	width:90%;
+	height:40px;
+	background-color: aliceblue;
+	border-radius: 4px;
+	border:2px solid #444AB2;
+	color:black;
+}
+/*#div-password{
+   width:100%;
+   
+}
+#lpassword{
+	width:90%;
+	height:40px;
+	background-color: aliceblue;
+	border-radius: 4px;
+	border:2px solid #444AB2;
+	color:black;
+}*/
+#div-signup-btn{
+	width:100%;
+	flex-grow: 0.5;
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+#btn-signup{
+	width:200px;
+	height:40px;
+	background-color: #34a782;
+	margin-right: 27px;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+	border: none;
+}
+#btn-signup:hover{
+	cursor: pointer;
+	background-color: #1b926c;
+}
